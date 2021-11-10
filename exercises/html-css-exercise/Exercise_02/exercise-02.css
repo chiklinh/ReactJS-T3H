@@ -1,0 +1,31 @@
+.header-container .title{
+    color: #008042;
+}
+.body-container .title{
+    background-color: #fecffd;
+    color: #ff3399;
+}
+.stanza{
+    background-color: #ffffcc;
+}
+.stanza .stanza-one{
+    color: blue;
+}
+.stanza .stanza-two{
+    color: red;
+}
+.stanza .stanza-three{
+    color: #008042;
+}
+.text-decoration{
+    text-decoration: underline; color: blue;
+}
+.align-center{
+    text-align: center;
+}
+.font-both{
+    font-weight: bold;
+}
+.hr-w-200{
+    width: 200px;
+}

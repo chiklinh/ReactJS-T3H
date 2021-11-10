@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tạo bảng</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<style>
+    tr td, tr th{
+        padding: 5px;
+    }
+    .txt-center{
+        text-align: center;
+    }
+    table{
+        border: 1px solid red;
+    }
+    table, th, td{
+        border: 1px solid red;
+        border-collapse: collapse;
+    }
+</style>
+<div class="container image">
+    <div class="header-container">
+        <font style="color: red; text-align: center;"><h1>Chương trình học - ngành lập trình</h1></font>
+    </div>
+    <div class="body-container" style="display: flex">
+        <table >
+            <tr style="background-color: #CC6600; color: #FFFFFF;">
+                <th style="width: 200px;" rowspan="2">Nhóm học phần</th>
+                <th style="width: 500px;" rowspan="2">Môn Học</th>
+                <th style="width: 500px;" colspan="2">Số tiết</th>
+            </tr>
+            <tr style="background-color: #CC6600; color: #FFFFFF;">
+                <th style="width: 200px;">Lý thuyết</th>
+                <th style="width: 500px;">Thực hành</th>
+            </tr>
+            <tr>
+                <td rowspan="6">I. Tin học Văn Phòng</td>
+                <td>Hệ điều hành Windows</td>
+                <td class="txt-center">3</td>
+                <td class="txt-center">5</td>
+            </tr>
+            <tr>
+                <td>Sử dụng Internet</td>
+                <td class="txt-center">3</td>
+                <td class="txt-center">5</td>
+            </tr>
+            <tr>
+                <td>Soạn thảo văn bản với MS Word</td>
+                <td class="txt-center">24</td>
+                <td class="txt-center">40</td>
+            </tr>
+            <tr>
+                <td>Tạo trình diễn với MS PowerPoint</td>
+                <td class="txt-center">9</td>
+                <td class="txt-center">10</td>
+            </tr>
+            <tr>
+                <td>Xử lý dữ liệu với MS Excel</td>
+                <td class="txt-center">24</td>
+                <td class="txt-center">40</td>
+            </tr>
+            <tr>
+                <td>Tạo trang web với MS ProntPage</td>
+                <td class="txt-center">9</td>
+                <td class="txt-center">15</td>
+            </tr>
+            <tr>
+                <td rowspan="2">II. Kỹ thuật lập trình</td>
+                <td>Nhập môn lập trình</td>
+                <td class="txt-center">36</td>
+                <td class="txt-center">60</td>
+            </tr>
+            <tr>
+                <td>Kỹ thuật lập trình</td>
+                <td class="txt-center">36</td>
+                <td class="txt-center">60</td>
+            </tr>
+            <tr>
+                <td colspan="4">...</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.title{
+    color: teal;
+}
+.align-center{
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.container{
+    background-color: #a06d21;
+    height: 100%;
+    width: 100%;
+}
+.container .header-container{
+    max-height: 8%
+}
+.container .body-container{
+    padding: 10px;
+    height: 350px;
+    max-height: 88%;
+}
+.image{
+    background: url("https://ibizavote.com/wp-content/uploads/2020/02/spain-la-nuoc-nao-1-825x510.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.content .row-1{
+    background: teal;
+    color: white;
+    font-weight: bold;
+}
+
+.content .row-2{
+    color: teal;
+}
+.content .row-3{
+    color: teal;
+}

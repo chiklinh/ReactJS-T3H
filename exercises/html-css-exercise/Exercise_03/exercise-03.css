@@ -1,0 +1,33 @@
+.content{
+    color: white;
+}
+.title{
+    color: #fccc00;
+}
+.align-center{
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.container{
+    background-color: #a06d21;
+    height: 100%;
+    width: 100%;
+}
+.container .header-container{
+    max-height: 8%
+}
+.container .body-container{
+    padding: 10px;
+    height: 350px;
+    max-height: 88%;
+}
+.image{
+    background: url("https://www.dulichdaiviet.com/uploaded/vanlytruongthanhtrungquoc.jpg") no-repeat center;
+    background-size: 30%;
+}
