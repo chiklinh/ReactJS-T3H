@@ -1,5 +1,3 @@
-<!-- @format -->
-
 # ReactJS-T3H
 
 - Description: course ReactJS at T3H
