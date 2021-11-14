@@ -4,6 +4,12 @@
 - TimeBegin: 25/10/2021
 
 # Review
+
+### Link website page content static with domain of github
+```sh
+https://chiklinh.github.io/ReactJS-T3H/
+```
+
 ### Exercise base html - css:
 ```sh
 https://mrdatngo.github.io/HTML_Excercise/Excercise/E1/index.html
