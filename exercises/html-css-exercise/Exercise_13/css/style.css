@@ -1,0 +1,44 @@
+/** @format */
+
+.align-center {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: contents;
+  width: 100%;
+}
+
+#lbl-result {
+  color: red;
+}
+.title {
+  color: #128a2f;
+}
+
+.container .body {
+  text-align: center;
+}
+
+tr {
+  width: 100% !important;
+}
+
+table {
+  background-color: #90ee90;
+}
+
+table,
+td,
+tr {
+  vertical-align: inherit;
+  border-collapse: collapse;
+}
+form {
+  display: inline-block;
+  text-align: left;
+}

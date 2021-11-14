@@ -1,0 +1,65 @@
+/** @format */
+
+table {
+  width: 100%;
+  height: 200px;
+}
+
+table,
+td,
+tr {
+  border-color: #093fa0;
+  vertical-align: inherit;
+  border-collapse: collapse;
+}
+
+td {
+  height: 20px;
+}
+
+img {
+  padding: 10px;
+}
+
+.pad-50 {
+  padding-left: 25px;
+}
+
+.icon {
+  /* background: url("~/img/red-hand-icon.png") no-repeat center left; */
+  background: url("../img/red-hand-icon.png") no-repeat left;
+  background-size: 23px;
+}
+
+.red {
+  color: red;
+}
+
+.pg-red {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.pg-gray {
+  background-color: #ffbbbb;
+  color: #ff0000;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.font-s-28 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.font-s-18 {
+  font-size: 18px;
+  font-weight: bold;
+}

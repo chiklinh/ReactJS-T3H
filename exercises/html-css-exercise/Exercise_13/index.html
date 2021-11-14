@@ -1,20 +1,88 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Exercise 01</title>
+    <title>Exercise 12</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="exercise-01.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div class="container">
-    <div class="body">
-        <h1 style="text-align: center;">Bài 01: Sử dụng các tag cơ bản</h1>
-        <h2 style="text-decoration: underline;">Yêu cầu</h2>
-        <p><b>Thiết kế trang web có nội dung như sau:</b></p>
-        <div style="text-align: center;">
-            Lập trình Web<br> Chào mừng bạn đến với ngôn ngữ HTML
+    <div class="container">
+        <div class="body">
+            <h2 class="title">Đăng ký dịch vụ</h2>
+            <form>
+                <table border="1">
+                    <tr>
+                        <td>
+                            Họ và tên
+                        </td>
+                        <td>
+                            <input type="text" name="full-name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Địa chỉ</td>
+                        <td><input type="text" name="address"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone number</td>
+                        <td><input type="text" name="phone-number"></td>
+                    </tr>
+                    <tr>
+                        <td>Khách Việt Nam</td>
+                        <td>
+                            <input type="checkbox" value="0" name="isVN" checked>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Chọn tour</td>
+                        <td>
+                            <select name="tour">
+                                <optgroup label="Miền Bắc">
+                                    <option value="1">Nha Trang - Đà Lạt</option>
+                                    <option value="2">Buôn mê thuột - Gia Lai - Kontum</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phương tiện</td>
+                        <td>
+                            <input type="radio" value="1" name="transfort" checked> Máy bay
+                            <input type="radio" value="0" name="transfort">Ô tô
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <fieldset>
+                                <legend>Chọn sản phẩm tham gia</legend>
+                                Người lớn<input type="text" value="1" name="num-Adults">
+                                Trẻ em<input type="text" value="0" name="num-child">
+                            </fieldset>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ghi chú thêm</td>
+                        <td>
+                            <textarea name="note" cols="30" rows="3"></textarea>
+                        </td>
+                    </tr>
+                    <tr class="align-center">
+                        <td colspan="2"><input type="submit" value="Đăng nhập"></td>
+                    </tr>
+                    <tr class="hide">
+                        <td colspan="2">
+                            <div id="lbl-result"></label>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script src="js/script.js"></script>
         </div>
     </div>
-</div>
 </body>
+
 </html>

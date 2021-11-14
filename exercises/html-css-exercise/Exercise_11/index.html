@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Exercise 01</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="exercise-01.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div class="container">
-    <div class="body">
-        <h1 style="text-align: center;">Bài 01: Sử dụng các tag cơ bản</h1>
-        <h2 style="text-decoration: underline;">Yêu cầu</h2>
-        <p><b>Thiết kế trang web có nội dung như sau:</b></p>
-        <div style="text-align: center;">
-            Lập trình Web<br> Chào mừng bạn đến với ngôn ngữ HTML
+    <div class="container">
+        <div class="body">
+            <form>
+                <table border="1">
+                    <tr>
+                        <td>
+                            Mã người dùng
+                        </td>
+                        <td>
+                            <input type="text" id="user-name" name="user-name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mật khẩu</td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr class="align-center">
+                        <td colspan="2"><input type="submit" value="Đăng nhập" id="submit"></td>
+                    </tr>
+                    <tr class="hide">
+                        <td colspan="2">
+                            <div id="lbl-result"></label>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script src="js/script.js"></script>
         </div>
     </div>
-</div>
 </body>
+
 </html>

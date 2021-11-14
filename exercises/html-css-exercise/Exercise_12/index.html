@@ -1,20 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Exercise 01</title>
+    <title>Exercise 12</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="exercise-01.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div class="container">
-    <div class="body">
-        <h1 style="text-align: center;">Bài 01: Sử dụng các tag cơ bản</h1>
-        <h2 style="text-decoration: underline;">Yêu cầu</h2>
-        <p><b>Thiết kế trang web có nội dung như sau:</b></p>
-        <div style="text-align: center;">
-            Lập trình Web<br> Chào mừng bạn đến với ngôn ngữ HTML
+    <div class="container">
+        <div class="body">
+            <h2 class="title">Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+            <form>
+                <table border="1">
+                    <tr>
+                        <td>
+                            Họ và tên
+                        </td>
+                        <td>
+                            <input type="text" name="full-name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Địa chỉ</td>
+                        <td><input type="text" name="address"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone number</td>
+                        <td><input type="text" name="phone-number"></td>
+                    </tr>
+                    <tr>
+                        <td>Phái</td>
+                        <td>
+                            <input type="radio" value="0" name="sex" checked> Name
+                            <input type="radio" value="0" name="sex"> Nữ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nghề nghiệp</td>
+                        <td>
+                            <select name="job" id="job">
+                                <option value="1">Giáo viên</option>
+                                <option value="2">Nhân viên bán hàng</option>
+                                <option value="3">Lao động tự do</option>
+                                <option value="4">Công nhân</option>
+                                <option value="5">Chưa có công việc</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Chọn sản phẩm tham gia</td>
+                        <td>
+                            <select name="product" multiple>
+                                <option value="1">Kem đánh răng</option>
+                                <option value="2">Bột giặt</option>
+                                <option value="3">Dầu gội đầu</option>
+                                <option value="3">Sữa tấm</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Số người dự đoán tham gia</td>
+                        <td><input type="text" name="num-job"></td>
+                    </tr>
+                    <tr class="align-center">
+                        <td colspan="2"><input type="submit" value="Đăng nhập"></td>
+                    </tr>
+                    <tr class="hide">
+                        <td colspan="2">
+                            <div id="lbl-result"></label>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script src="js/script.js"></script>
         </div>
     </div>
-</div>
 </body>
+
 </html>
